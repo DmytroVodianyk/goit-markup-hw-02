@@ -80,9 +80,11 @@ ol {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
-.hero-btn-order:hover {
-  color: #404bbf;
+.hero-btn-order:hover,
+.hero-btn-order:focus {
+  background-color: #404bbf;
 }
 /* ----------hero title---------- */
 /* ----------features---------- */
@@ -113,21 +115,24 @@ ol {
 /* ----------/features---------- */
 /* ----------our team---------- */
 .section-title {
+  background-color: #f4f4fd;
 }
 
 .our {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .our-team-list-title {
 }
 
 .our-team-list {
+  background-color: #ffffff;
 }
 
 .our-team-list-img {
@@ -156,6 +161,13 @@ ol {
 }
 
 .our {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .our-portfolio-item {
